@@ -55,6 +55,6 @@ pub fn compute(arg: &str) -> () {
             sum2 += find_badge(&elves);
         }
     }
-    println!("Part1: {}", sum);
-    println!("Part2: {}", sum2);
+    println!("  Part1: {}", sum);
+    println!("  Part2: {}", sum2);
 }

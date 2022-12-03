@@ -1,10 +1,10 @@
 pub fn compute(arg: &str) -> () {
     let data = std::fs::read_to_string(arg).unwrap();
     let mut elves = parse(&data);
-    println!("Part1: {}", elves.iter().max().unwrap());
+    println!("  Part1: {}", elves.iter().max().unwrap());
     elves.sort();
     elves.reverse();
-    println!("Part2: {}", elves[..3].iter().sum::<usize>());
+    println!("  Part2: {}", elves[..3].iter().sum::<usize>());
 }
 
 fn parse(data: &str) -> Vec<usize> {

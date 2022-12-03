@@ -48,6 +48,6 @@ pub fn compute(arg: &str) -> () {
         score_part2 += cal_winner_part2(&p1, &p2);
     }
 
-    println!("Part1: {}", score_part1);
-    println!("Part2: {}", score_part2);
+    println!("  Part1: {}", score_part1);
+    println!("  Part2: {}", score_part2);
 }
