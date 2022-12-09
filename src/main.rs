@@ -5,6 +5,7 @@ mod day4;
 mod day5;
 mod day6;
 mod day7;
+mod day8;
 
 fn main() {
     println!("Day1:");
@@ -21,4 +22,6 @@ fn main() {
     day6::compute("data/Day6/main.txt");
     println!("Day7:");
     day7::compute("data/Day7/main.txt");
+    println!("Day8:");
+    day8::compute("data/Day8/main.txt");
 }
